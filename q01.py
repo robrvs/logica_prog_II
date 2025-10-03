@@ -1,6 +1,8 @@
-home  = int(input("Digite quantas pessoas moram em sua casa: "))
-if (home % 2) == 0:
- print("O número de pessoas na sua casa é PAR.")
+# Solicita a quantidade de pessoas que moram na mesma casa
+qtd = int(input("Digite a quantidade de pessoas que moram na mesma casa que você: "))
+
+# Verifica se a quantidade é par ou ímpar
+if qtd % 2 == 0:
+    print(f"A quantidade de pessoas ({qtd}) é PAR.")
 else:
-    print("O número de pessoas na sua casa é ÍMPAR.")
-    
+    print(f"A quantidade de pessoas ({qtd}) é ÍMPAR.")
